@@ -35,19 +35,19 @@ class Fasteign(object):
 
         tree = html.fromstring(res.text)
 
-        xentry = ('//*[@id="realestate-user-action-infobox"]'
-                      '/div[1]/table/tbody/tr[12]/td[2]')
+        xentry = ('//*[@id="realestate-infobox-description"]'
+                  '/div[1]/table/tbody/tr[12]/td[2]')
         xentry = tree.xpath(xentry)[0]
 
-        xtype = ('//*[@id="realestate-user-action-infobox"]'
+        xtype = ('//*[@id="realestate-infobox-description"]'
                  '/div[1]/table/tbody/tr[5]/td[2]')
         xtype = tree.xpath(xtype)[0]
 
-        xprice = ('//*[@id="realestate-user-action-infobox"]'
+        xprice = ('//*[@id="realestate-infobox-description"]'
                   '/div[1]/table/tbody/tr[1]/td[2]')
         xprice = tree.xpath(xprice)[0]
 
-        xsize = ('//*[@id="realestate-user-action-infobox"]'
+        xsize = ('//*[@id="realestate-infobox-description"]'
                  '/div[1]/table/tbody/tr[7]/td[2]')
         xsize = tree.xpath(xsize)[0]
 
@@ -55,7 +55,7 @@ class Fasteign(object):
                  '/div/div[1]/span[1]/strong')
         xname = tree.xpath(xname)[0]
 
-        xdate = ('//*[@id="realestate-user-action-infobox"]'
+        xdate = ('//*[@id="realestate-infobox-description"]'
                  '/div[1]/table/tbody/tr[14]/td[2]')
         xdate = tree.xpath(xdate)[0]
 
