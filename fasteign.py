@@ -59,8 +59,13 @@ class Fasteign(object):
                  '/div[1]/table/tbody/tr[14]/td[2]')
         xdate = tree.xpath(xdate)[0]
 
+        if xprice.text.strip().startswith("Tilb"):
+            price = "Tilbod"
+        else:
+            price = self._str2int(xprice.text.strip())
+
         return {
-            "price": self._str2int(xprice.text.strip()),
+            "price": price,
             "price_str": xprice.text.strip(),
             "name": xname.text.strip(),
             "size": self._str2int(xsize.text.strip()),
