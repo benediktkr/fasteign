@@ -1,14 +1,137 @@
 #coding: utf8
+import argparse
 import json
 import pprint
 import sys
+import re
+from decimal import Decimal
+from datetime import datetime
 
 import requests
 from lxml import html
 
-class Fasteign(object):
-    def __init__(self, searchurl):
+TEMPLATE = """
+{name}
+{price_short} mkr. || {size} m²
+{url}
+"""
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--filename", required=True, type=str)
+parser.add_argument("--search", default="breidholt", type=str)
+parser.add_argument("--printall", action="store_true")
+args = parser.parse_args()
+
+class Flat(object):
+    def __init__(self, *args, **kwargs):
+        self.size = kwargs.get('size')
+        self.price = kwargs.get('price')
+        self.name = kwargs.get('name').encode('utf-8')
+        self.flatid = kwargs.get('flatid')
+        self.url = "http://www.mbl.is/fasteignir/fasteign/{}/".format(self.flatid)
+        self.strings = kwargs.get('strings')
+        self.timesteamp = kwargs.get('timestamp', datetime.now().isoformat())
+        self.img = kwargs.get('img', [])
+
+        # Now removed but may be relevant if i have to dig into data
+        # self.price_str
+        # NOTE: self.size_str never existed so don't go looking for it
+
+    def __iter__(self):
+        return self.__dict__
+
+    def is_like_mine(self):
+        return 90.0 <= self.size <= 92.0
+
+    def template(self):
+        ps = Decimal(self.price) / 1000000
+        return TEMPLATE.format(price_short=ps, **vars(self))
+
+
+    def send_notification(self):
+        print self.template()
+
+def parse_flat_pics(flatid):
+    """Makes a request to mbl.is and parses the pictures for
+    the flat.
+    """
+
+    url = "http://www.mbl.is/fasteignir/fasteign/{}/photos/".format(flatid)
+    res = requests.get(url)
+    if not res.status_code == 200:
+        res.raise_for_status()
+
+    tree = html.fromstring(res.text)
+    xpics = '//div[@class="realestate_photos"]/div/a/img/@src'
+    return list(tree.xpath(xpics))
+
+def parse_flat(flatid):
+    """Makes a request to mbl.is and parses the flat info
+    """
+    url = "http://www.mbl.is/fasteignir/fasteign/{}/".format(flatid)
+    res = requests.get(url)
+    if not res.status_code == 200:
+        res.raise_for_status()
+
+    tree = html.fromstring(res.text)
+
+    xentry = ('//*[@id="realestate-infobox-description"]'
+                  '/div[1]/table/tbody/tr[12]/td[2]')
+    xentry = tree.xpath(xentry)[0]
+
+    xtype = ('//*[@id="realestate-infobox-description"]'
+                 '/div[1]/table/tbody/tr[5]/td[2]')
+    xtype = tree.xpath(xtype)[0]
+
+    xprice = ('//*[@id="realestate-infobox-description"]'
+                  '/div[1]/table/tbody/tr[1]/td[2]')
+    price = tree.xpath(xprice)[0].text.strip()
+
+    xsize = ('//*[@id="realestate-infobox-description"]'
+                 '/div[1]/table/tbody/tr[7]/td[2]')
+    xsize = tree.xpath(xsize)[0]
+
+    xname = ('//*[@id="fs-canvas"]/section/div[1]'
+                 '/div/div[1]/span[1]/strong')
+    xname = tree.xpath(xname)[0]
+
+
+
+
+    d = {
+        'name': xname.text.strip(),
+        'size': size_from_string(xsize.text),
+        'price': price_from_string(price),
+        'flatid': flatid,
+        'strings': {'price': price, 'size': xsize.text},
+        'type': xtype.text.strip(),
+        'img': parse_flat_pics(flatid),
+    }
+
+    return Flat(**d)
+
+def price_from_string(price):
+    if price.strip().startswith("Tilb"):
+        return "Tilbod"
+
+    return int(
+        "".join([a for a in price.strip() if a.isdigit()]))
+
+
+def size_from_string(size):
+    hits = re.findall(r"\d+\.\d+", size)
+    assert len(hits) == 1, "regex failed for '{}'".format(size)
+    return float(hits[0])
+
+
+class MblFasteign(object):
+    def __init__(self, filename, searchurl, printall=False):
+        self.filename = filename
         self.searchurl = searchurl
+        self.printall = printall
+
+
+        self.existing = self.read_json()
         self.flatids = self.search()
 
     def search(self):
@@ -23,86 +146,56 @@ class Fasteign(object):
         prefix = len("realeastate-result-")-1
         return [a.get("id")[prefix:] for a in resultlist]
 
-    def _str2int(self, string):
-        return int(
-            "".join([a for a in string if a.isdigit()]))
+    def update(self):
+        pass
 
-    def parse_flat(self, flatid):
-        url = "http://www.mbl.is/fasteignir/fasteign/{}/".format(flatid)
-        res = requests.get(url)
-        if not res.status_code == 200:
-            res.raise_for_status()
-
-        tree = html.fromstring(res.text)
-
-        xentry = ('//*[@id="realestate-infobox-description"]'
-                  '/div[1]/table/tbody/tr[12]/td[2]')
-        xentry = tree.xpath(xentry)[0]
-
-        xtype = ('//*[@id="realestate-infobox-description"]'
-                 '/div[1]/table/tbody/tr[5]/td[2]')
-        xtype = tree.xpath(xtype)[0]
-
-        xprice = ('//*[@id="realestate-infobox-description"]'
-                  '/div[1]/table/tbody/tr[1]/td[2]')
-        xprice = tree.xpath(xprice)[0]
-
-        xsize = ('//*[@id="realestate-infobox-description"]'
-                 '/div[1]/table/tbody/tr[7]/td[2]')
-        xsize = tree.xpath(xsize)[0]
-
-        xname = ('//*[@id="fs-canvas"]/section/div[1]'
-                 '/div/div[1]/span[1]/strong')
-        xname = tree.xpath(xname)[0]
-
-        xdate = ('//*[@id="realestate-infobox-description"]'
-                 '/div[1]/table/tbody/tr[14]/td[2]')
-        xdate = tree.xpath(xdate)[0]
-
-        if xprice.text.strip().startswith("Tilb"):
-            price = "Tilbod"
-        else:
-            price = self._str2int(xprice.text.strip())
-
-        return {
-            "price": price,
-            "price_str": xprice.text.strip(),
-            "name": xname.text.strip(),
-            "size": self._str2int(xsize.text.strip()),
-            "flatid": flatid,
-            "entry": xentry.text.strip(),
-            "type": xtype.text.strip(),
-            "date": xdate.text.strip(),
-            "url": url,
-        }
-
-    def write_json(self, filename):
+    def read_json(self):
         try:
-            with open(filename, "r") as f:
-                existing = json.loads(f.read())
-        except IOError:
-            print "New file"
-            existing = dict()
-        for flatid in self.flatids:
-            if flatid in existing:
-                # NOTE: not updating
-                pass
+            with open(self.filename, "r") as f:
+                return json.loads(f.read().decode('utf-8'))
+        except IOError as e:
+            if e.errno == 2:
+                print "New file: {}".format(self.filename)
+                return dict()
             else:
-                flat = self.parse_flat(flatid)
-                pprint.pprint(flat)
-                existing[flatid] = flat
+                raise
 
-        with open(filename, "w") as f:
-            f.write(json.dumps(existing))
 
+    def parse_new_flats(self):
+        for flatid in self.flatids:
+
+
+            if flatid not in self.existing:
+                # Just parse (send a request to mbl) new finds
+                #
+                # NOTE: this means we do not observe changes in price listings
+                # which would be interesting.
+                flat = parse_flat(flatid)
+
+                if flat.is_like_mine() or self.printall:
+                    flat.send_notification()
+
+                self.existing[flatid] = flat.__dict__
+
+            elif self.printall:
+                flat = Flat(**self.existing[flatid])
+                if flat.is_like_mine():
+                    flat.send_notification()
+
+
+    def write_json(self):
+        with open(self.filename, "w") as f:
+            f.write(json.dumps(self.existing))
 
 if __name__ == "__main__":
-    breidholt = "http://www.mbl.is/fasteignir/leit/?q=e09ddca032a239798b5f3c4ac91beb50"
-    test = "http://www.mbl.is/fasteignir/leit/?q=80f323c5382397611e72800316f250d1"
-    try:
-        filename = sys.argv[1]
-    except IndexError:
-        print "python fasteign.py filename"
-        sys.exit(1)
-    f = Fasteign(breidholt)
-    f.write_json(filename)
+    searches = {
+        'breidholt': "http://www.mbl.is/fasteignir/leit/?q=e09ddca032a239798b5f3c4ac91beb50",
+        'test': "http://www.mbl.is/fasteignir/leit/?q=80f323c5382397611e72800316f250d1"
+        }
+
+
+    f = MblFasteign(args.filename, searches[args.search], printall=args.printall)
+    if args.printall:
+        print "Looking up flats from search results.."
+    f.parse_new_flats()
+    f.write_json()
