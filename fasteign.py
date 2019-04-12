@@ -4,23 +4,20 @@ import json
 import pprint
 import sys
 import re
-from decimal import Decimal
+import decimal
 from datetime import datetime
 
 import requests
 from lxml import html
 
+from sudoisbot import sendmsg
+
 TEMPLATE = """
 {name}
 {price_short} mkr. || {size} m²
+{extra}
 {url}
 """
-
-parser = argparse.ArgumentParser()
-parser.add_argument("--filename", required=True, type=str)
-parser.add_argument("--search", default="breidholt", type=str)
-parser.add_argument("--printall", action="store_true")
-args = parser.parse_args()
 
 class Flat(object):
     def __init__(self, *args, **kwargs):
@@ -30,7 +27,7 @@ class Flat(object):
         self.flatid = kwargs.get('flatid')
         self.url = "http://www.mbl.is/fasteignir/fasteign/{}/".format(self.flatid)
         self.strings = kwargs.get('strings')
-        self.timesteamp = kwargs.get('timestamp', datetime.now().isoformat())
+        self.timestamp = kwargs.get('timestamp', datetime.now().isoformat())
         self.img = kwargs.get('img', [])
 
         # Now removed but may be relevant if i have to dig into data
@@ -40,16 +37,40 @@ class Flat(object):
     def __iter__(self):
         return self.__dict__
 
+    def __repr__(self):
+        return "<Flat {}>".format(self.name)
+
     def is_like_mine(self):
         return 90.0 <= self.size <= 92.0
 
-    def template(self):
-        ps = Decimal(self.price) / 1000000
-        return TEMPLATE.format(price_short=ps, **vars(self))
+    def price_short(self):
+        try:
+            return decimal.Decimal(self.price) / 1000000
+        except decimal.InvalidOperation:
+            # Happens with it's a string (saying Tilbod)
+            return ""
 
+    def template(self):
+        ps = self.price_short()
+        if self.is_like_mine():
+            extra = "(like mine)"
+        else:
+            extra = ""
+        return TEMPLATE.format(price_short=ps, extra=extra, **vars(self))
+
+    def short_template(self):
+        ps = self.price_short()
+        ts = self.timestamp.split("T")[0] # lol
+        return "{}: {} mkr".format(ts, ps)
 
     def send_notification(self):
         print self.template()
+        if self.img:
+            if args.printall:
+                print "Sending {} images..".format(len(self.img))
+            sendmsg.send_to_me("", img=self.img)
+        # summary on the bottom
+        sendmsg.send_to_me(self.template())
 
 def parse_flat_pics(flatid):
     """Makes a request to mbl.is and parses the pictures for
@@ -62,8 +83,9 @@ def parse_flat_pics(flatid):
         res.raise_for_status()
 
     tree = html.fromstring(res.text)
-    xpics = '//div[@class="realestate_photos"]/div/a/img/@src'
-    return list(tree.xpath(xpics))
+    xpics = '//div[@class="realestate_photos"]/a/img/@src'
+    ret = list(tree.xpath(xpics))
+    return ret
 
 def parse_flat(flatid):
     """Makes a request to mbl.is and parses the flat info
@@ -96,7 +118,7 @@ def parse_flat(flatid):
     xname = tree.xpath(xname)[0]
 
 
-
+    img = parse_flat_pics(flatid)
 
     d = {
         'name': xname.text.strip(),
@@ -105,7 +127,7 @@ def parse_flat(flatid):
         'flatid': flatid,
         'strings': {'price': price, 'size': xsize.text},
         'type': xtype.text.strip(),
-        'img': parse_flat_pics(flatid),
+        'img': img,
     }
 
     return Flat(**d)
@@ -125,17 +147,30 @@ def size_from_string(size):
 
 
 class MblFasteign(object):
-    def __init__(self, filename, searchurl, printall=False):
+    def __init__(self, filename, printall=False):
         self.filename = filename
-        self.searchurl = searchurl
         self.printall = printall
 
 
         self.existing = self.read_json()
-        self.flatids = self.search()
+        self.existing_flats = [Flat(**e[1]) for e in self.existing.items()]
 
-    def search(self):
-        res = requests.get(self.searchurl)
+    def last_flats(self, count=3):
+        return [a for a in self.existing_flats if a.is_like_mine()][:count]
+
+    def send_summary(self):
+        last = self.last_flats()
+        if not last:
+            print "I don't know about any flats"
+            return
+
+        summary = "\n".join([a.short_template() for a in last])
+        if self.printall:
+            print summary
+        sendmsg.send_to_me(summary)
+
+    def search(self, searchurl):
+        res = requests.get(searchurl)
         if not res.status_code == 200:
             res.raise_for_status()
         tree = html.fromstring(res.text)
@@ -161,9 +196,11 @@ class MblFasteign(object):
                 raise
 
 
-    def parse_new_flats(self):
-        for flatid in self.flatids:
+    def parse_new_flats(self, searchurl):
+        start_count = len(self.existing)
+        flatids = self.search(searchurl)
 
+        for flatid in flatids:
 
             if flatid not in self.existing:
                 # Just parse (send a request to mbl) new finds
@@ -182,20 +219,37 @@ class MblFasteign(object):
                 if flat.is_like_mine():
                     flat.send_notification()
 
+        return len(self.existing) != start_count
+
 
     def write_json(self):
         with open(self.filename, "w") as f:
-            f.write(json.dumps(self.existing))
+            f.write(json.dumps(self.existing, indent=4))
+        if self.printall:
+            print "Saved json: {}".format(self.filename)
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--filename", required=True, type=str)
+    parser.add_argument("--search", default="breidholt", type=str)
+    parser.add_argument("--printall", action="store_true")
+    args = parser.parse_args()
+
     searches = {
         'breidholt': "http://www.mbl.is/fasteignir/leit/?q=e09ddca032a239798b5f3c4ac91beb50",
         'test': "http://www.mbl.is/fasteignir/leit/?q=80f323c5382397611e72800316f250d1"
         }
 
+    try:
+        f = MblFasteign(args.filename, printall=args.printall)
+        if args.printall:
+            print "Looking up flats from search results.."
 
-    f = MblFasteign(args.filename, searches[args.search], printall=args.printall)
-    if args.printall:
-        print "Looking up flats from search results.."
-    f.parse_new_flats()
-    f.write_json()
+        newflats = f.parse_new_flats(searches[args.search])
+        if newflats or args.printall:
+            f.send_summary()
+    except Exception as e:
+        sendmsg.send_to_me("fasteign.py: {}".format(e))
+        raise
+    finally:
+        f.write_json()
