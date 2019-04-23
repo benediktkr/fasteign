@@ -63,9 +63,9 @@ class Flat(object):
         ts = self.timestamp.split("T")[0] # lol
         return "{}: {} mkr".format(ts, ps)
 
-    def send_notification(self):
+    def send_notification(self, send_imgs=True):
         print self.template()
-        if self.img:
+        if self.img and send_imgs:
             if args.printall:
                 print "Sending {} images..".format(len(self.img))
             sendmsg.send_to_me("", img=self.img)
@@ -209,8 +209,8 @@ class MblFasteign(object):
                 # which would be interesting.
                 flat = parse_flat(flatid)
 
-                if flat.is_like_mine() or self.printall:
-                    flat.send_notification()
+                send_imgs = flat.is_like_mine() or self.printall
+                flat.send_notification(send_imgs)
 
                 self.existing[flatid] = flat.__dict__
 
@@ -233,6 +233,7 @@ if __name__ == "__main__":
     parser.add_argument("--filename", required=True, type=str)
     parser.add_argument("--search", default="breidholt", type=str)
     parser.add_argument("--printall", action="store_true")
+    parser.add_argument("--summary", action="store_true")
     args = parser.parse_args()
 
     searches = {
@@ -242,6 +243,10 @@ if __name__ == "__main__":
 
     try:
         f = MblFasteign(args.filename, printall=args.printall)
+        if args.summary:
+            f.send_summary()
+            sys.exit(0)
+
         if args.printall:
             print "Looking up flats from search results.."
 
