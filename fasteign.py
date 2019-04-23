@@ -43,6 +43,9 @@ class Flat(object):
     def is_like_mine(self):
         return 90.0 <= self.size <= 92.0
 
+    def price_per_sqm(self):
+        return float(self.price) / float(self.size)
+
     def price_short(self):
         try:
             return decimal.Decimal(self.price) / 1000000
@@ -155,11 +158,11 @@ class MblFasteign(object):
         self.existing = self.read_json()
         self.existing_flats = [Flat(**e[1]) for e in self.existing.items()]
 
-    def last_flats(self, count=3):
+    def last_flats_like_mine(self, count=3):
         return [a for a in self.existing_flats if a.is_like_mine()][:count]
 
     def send_summary(self):
-        last = self.last_flats()
+        last = self.last_flats_like_mine()
         if not last:
             print "I don't know about any flats"
             return
