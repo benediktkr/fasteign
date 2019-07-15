@@ -27,8 +27,10 @@ class Flat(object):
         self.flatid = kwargs.get('flatid')
         self.url = "http://www.mbl.is/fasteignir/fasteign/{}/".format(self.flatid)
         self.strings = kwargs.get('strings')
-        self.timestamp = kwargs.get('timestamp', datetime.now().isoformat())
+        # self.timestamp was added relatively recently
+        self.timestamp = kwargs.get('timestamp', None)
         self.img = kwargs.get('img', [])
+        self.date = kwargs.get('date')
 
         # Now removed but may be relevant if i have to dig into data
         # self.price_str
@@ -63,8 +65,9 @@ class Flat(object):
 
     def short_template(self):
         ps = self.price_short()
-        ts = self.timestamp.split("T")[0] # lol
-        return "{}: {} mkr".format(ts, ps)
+        #ts = self.timestamp.split("T")[0] # lol
+        ds = self.date
+        return "{}: {} mkr".format(ds, ps)
 
     def send_notification(self, send_imgs=True):
         print self.template()
@@ -131,6 +134,7 @@ def parse_flat(flatid):
         'strings': {'price': price, 'size': xsize.text},
         'type': xtype.text.strip(),
         'img': img,
+        'timestamp': datetime.datetime.now().isoformat()
     }
 
     return Flat(**d)
@@ -159,10 +163,11 @@ class MblFasteign(object):
         self.existing_flats = [Flat(**e[1]) for e in self.existing.items()]
 
     def last_flats_like_mine(self, count=3):
-        return [a for a in self.existing_flats if a.is_like_mine()][:count]
+        ef = sorted(self.existing_flats, key=lambda a: a.date, reverse=True)
+        return [a for a in ef if a.is_like_mine()][:count]
 
-    def send_summary(self):
-        last = self.last_flats_like_mine()
+    def send_summary(self, count=3):
+        last = self.last_flats_like_mine(count)
         if not last:
             print "I don't know about any flats"
             return
@@ -237,6 +242,7 @@ if __name__ == "__main__":
     parser.add_argument("--search", default="breidholt", type=str)
     parser.add_argument("--printall", action="store_true")
     parser.add_argument("--summary", action="store_true")
+    parser.add_argument("--summary-count", type=int, default=3)
     args = parser.parse_args()
 
     searches = {
@@ -247,7 +253,7 @@ if __name__ == "__main__":
     try:
         f = MblFasteign(args.filename, printall=args.printall)
         if args.summary:
-            f.send_summary()
+            f.send_summary(args.summary_count)
             sys.exit(0)
 
         if args.printall:
