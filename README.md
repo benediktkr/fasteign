@@ -8,7 +8,7 @@ Go www.mbl.is/fasteignir and create a search you are interested in. Copy the url
 
 ## Code quality
 
-Not great, but it works
+Not great, but it works. Actually, it's terrible. Leave this alone.
 
 ## If in doubt..
 
