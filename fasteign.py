@@ -164,7 +164,7 @@ class MblFasteign(object):
 
     def last_flats_like_mine(self, count=3):
         ef = sorted(self.existing_flats, key=lambda a: a.date)
-        return [a for a in ef if a.is_like_mine()][count:]
+        return [a for a in ef if a.is_like_mine()][-count:]
 
     def send_summary(self, count=3):
         last = self.last_flats_like_mine(count)
