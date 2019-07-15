@@ -237,22 +237,22 @@
         }, 
         "size": 116.0
     }, 
-    "799519": {
-        "name": "Su\u00f0urh\u00f3lar 35D", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/799519/", 
-        "price": 42900000, 
+    "803258": {
+        "name": "Austurberg 36", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/803258/", 
+        "price": 33500000, 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "799519", 
-        "date": "2018-04-06", 
+        "flatid": "803258", 
+        "date": "2018-05-08", 
         "entry": "S\u00e9rinngangur", 
         "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "42.900.000 kr.", 
+        "price_str": "33.500.000 kr.", 
         "string": {
-            "size": 86
+            "size": 75
         }, 
-        "size": 86.0
+        "size": 75.0
     }, 
     "810831": {
         "name": "Su\u00f0urh\u00f3lar 26", 
@@ -1565,22 +1565,22 @@
         }, 
         "size": 354.6
     }, 
-    "803258": {
-        "name": "Austurberg 36", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/803258/", 
-        "price": 33500000, 
+    "799519": {
+        "name": "Su\u00f0urh\u00f3lar 35D", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/799519/", 
+        "price": 42900000, 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "803258", 
-        "date": "2018-05-08", 
+        "flatid": "799519", 
+        "date": "2018-04-06", 
         "entry": "S\u00e9rinngangur", 
         "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "33.500.000 kr.", 
+        "price_str": "42.900.000 kr.", 
         "string": {
-            "size": 75
+            "size": 86
         }, 
-        "size": 75.0
+        "size": 86.0
     }, 
     "853959": {
         "name": "Su\u00f0urh\u00f3lar 18", 
