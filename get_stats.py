@@ -15,6 +15,7 @@ if __name__ == "__main__":
     last = mblfasteign.last_flats_like_mine(args.count)
     for flat in last:
         if args.csv:
-            print "{},{},{}".format(flat.date, flat.size, flat.price)
+            print "{},{},{},{}".format(
+                flat.date, flat.name, flat.size, flat.price)
         else:
-            print flat.short_template()
+            print flat.short_template(), flat.name

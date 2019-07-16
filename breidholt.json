@@ -3,522 +3,494 @@
         "name": "Krummah\u00f3lar 8", 
         "url": "http://www.mbl.is/fasteignir/fasteign/836100/", 
         "price": 39900000, 
-        "flatid": "836100", 
-        "price_str": "39.900.000 kr.", 
-        "date": "2019-01-10", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "J\u00e1"
         }, 
+        "flatid": "836100", 
+        "date": "2019-01-10", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 119.7, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "39.900.000 kr.", 
         "string": {
             "size": 1197
-        }, 
-        "size": 119.7
+        }
     }, 
     "788585": {
         "name": "Su\u00f0urh\u00f3lar 30", 
         "url": "http://www.mbl.is/fasteignir/fasteign/788585/", 
         "price": 36800000, 
-        "flatid": "788585", 
-        "price_str": "36.800.000 kr.", 
-        "date": "2017-12-13", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "13. desember 2017"
         }, 
+        "flatid": "788585", 
+        "date": "2017-12-13", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 103.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "36.800.000 kr.", 
         "string": {
             "size": 103
-        }, 
-        "size": 103.0
+        }
     }, 
     "768388": {
         "name": "Krummah\u00f3lar 10", 
         "url": "http://www.mbl.is/fasteignir/fasteign/768388/", 
         "price": 30900000, 
-        "flatid": "768388", 
-        "price_str": "30.900.000 kr.", 
-        "date": "2017-05-20", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "20. ma\u00ed 2017"
         }, 
+        "flatid": "768388", 
+        "date": "2017-05-20", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 71.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "30.900.000 kr.", 
         "string": {
             "size": 71
-        }, 
-        "size": 71.0
+        }
     }, 
     "780793": {
         "name": "Austurberg 30", 
         "url": "http://www.mbl.is/fasteignir/fasteign/780793/", 
         "price": 31500000, 
-        "flatid": "780793", 
-        "price_str": "31.500.000 kr.", 
-        "date": "2017-09-29", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "29. september 2017"
         }, 
+        "flatid": "780793", 
+        "date": "2017-09-29", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 75.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "31.500.000 kr.", 
         "string": {
             "size": 75
-        }, 
-        "size": 75.0
+        }
     }, 
     "830703": {
         "name": "Su\u00f0urh\u00f3lar 20", 
         "url": "http://www.mbl.is/fasteignir/fasteign/830703/", 
         "price": 36900000, 
+        "flatid": "830703", 
+        "price_str": "36.900.000 kr.", 
+        "date": "2018-11-21", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "830703", 
-        "date": "2018-11-21", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "36.900.000 kr.", 
         "string": {
             "size": 910
-        }, 
-        "size": 91.0
+        }
     }, 
     "810214": {
         "name": "Austurberg 36", 
         "url": "http://www.mbl.is/fasteignir/fasteign/810214/", 
         "price": 24900000, 
+        "flatid": "810214", 
+        "price_str": "24.900.000 kr.", 
+        "date": "2018-06-29", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 43.2, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "810214", 
-        "date": "2018-06-29", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "24.900.000 kr.", 
         "string": {
             "size": 432
-        }, 
-        "size": 43.2
+        }
     }, 
     "828843": {
         "name": "Su\u00f0urh\u00f3lar 20", 
         "url": "http://www.mbl.is/fasteignir/fasteign/828843/", 
         "price": 37800000, 
+        "flatid": "828843", 
+        "price_str": "37.800.000 kr.", 
+        "date": "2018-11-07", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "828843", 
-        "date": "2018-11-07", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "37.800.000 kr.", 
         "string": {
             "size": 910
-        }, 
-        "size": 91.0
+        }
     }, 
     "845116": {
         "name": "Austurberg 30", 
         "url": "http://www.mbl.is/fasteignir/fasteign/845116/", 
         "price": 39900000, 
-        "flatid": "845116", 
-        "price_str": "39.900.000 kr.", 
-        "date": "2019-03-09", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
+        "flatid": "845116", 
+        "date": "2019-03-09", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "39.900.000 kr.", 
         "string": {
             "size": 910
-        }, 
-        "size": 91.0
+        }
     }, 
     "772429": {
         "name": "Austurberg 30", 
         "url": "http://www.mbl.is/fasteignir/fasteign/772429/", 
         "price": 38500000, 
-        "flatid": "772429", 
-        "price_str": "38.500.000 kr.", 
-        "date": "2017-06-30", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "30. j\u00fan\u00ed 2017"
         }, 
+        "flatid": "772429", 
+        "date": "2017-06-30", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "38.500.000 kr.", 
         "string": {
             "size": 91
-        }, 
-        "size": 91.0
+        }
     }, 
     "799511": {
         "name": "Su\u00f0urh\u00f3lar 35A", 
         "url": "http://www.mbl.is/fasteignir/fasteign/799511/", 
         "price": 34900000, 
+        "flatid": "799511", 
+        "price_str": "34.900.000 kr.", 
+        "date": "2018-04-06", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 71.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "799511", 
-        "date": "2018-04-06", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "34.900.000 kr.", 
         "string": {
             "size": 71
-        }, 
-        "size": 71.0
+        }
     }, 
     "760463": {
         "name": "Austurberg 34", 
         "url": "http://www.mbl.is/fasteignir/fasteign/760463/", 
         "price": 29900000, 
-        "flatid": "760463", 
-        "price_str": "29.900.000 kr.", 
-        "date": "2017-02-15", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "15. febr\u00faar 2017"
         }, 
+        "flatid": "760463", 
+        "date": "2017-02-15", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 75.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "29.900.000 kr.", 
         "string": {
             "size": 75
-        }, 
-        "size": 75.0
+        }
     }, 
     "768251": {
         "name": "Su\u00f0urh\u00f3lar 18", 
         "url": "http://www.mbl.is/fasteignir/fasteign/768251/", 
         "price": 22900000, 
-        "flatid": "768251", 
-        "price_str": "22.900.000 kr.", 
-        "date": "2017-05-19", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "19. ma\u00ed 2017"
         }, 
+        "flatid": "768251", 
+        "date": "2017-05-19", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 43.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "22.900.000 kr.", 
         "string": {
             "size": 43
-        }, 
-        "size": 43.0
+        }
     }, 
     "801612": {
         "name": "Su\u00f0urh\u00f3lar 35D", 
         "url": "http://www.mbl.is/fasteignir/fasteign/801612/", 
         "price": 39900000, 
+        "flatid": "801612", 
+        "price_str": "39.900.000 kr.", 
+        "date": "2018-04-23", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 86.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "801612", 
-        "date": "2018-04-23", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "39.900.000 kr.", 
         "string": {
             "size": 86
-        }, 
-        "size": 86.0
+        }
     }, 
     "755971": {
         "name": "Erluh\u00f3lar 3", 
         "url": "http://www.mbl.is/fasteignir/fasteign/755971/", 
         "price": 39900000, 
-        "flatid": "755971", 
-        "price_str": "39.900.000 kr.", 
-        "date": "2016-12-15", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "15. desember 2016"
         }, 
+        "flatid": "755971", 
+        "date": "2016-12-15", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 116.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "39.900.000 kr.", 
         "string": {
             "size": 116
-        }, 
-        "size": 116.0
+        }
     }, 
     "803258": {
         "name": "Austurberg 36", 
         "url": "http://www.mbl.is/fasteignir/fasteign/803258/", 
         "price": 33500000, 
+        "flatid": "803258", 
+        "price_str": "33.500.000 kr.", 
+        "date": "2018-05-08", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 75.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "803258", 
-        "date": "2018-05-08", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "33.500.000 kr.", 
         "string": {
             "size": 75
-        }, 
-        "size": 75.0
+        }
     }, 
     "810831": {
         "name": "Su\u00f0urh\u00f3lar 26", 
         "url": "http://www.mbl.is/fasteignir/fasteign/810831/", 
         "price": 36500000, 
+        "flatid": "810831", 
+        "price_str": "36.500.000 kr.", 
+        "date": "2018-07-06", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "810831", 
-        "date": "2018-07-06", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "36.500.000 kr.", 
         "string": {
             "size": 910
-        }, 
-        "size": 91.0
+        }
     }, 
     "836198": {
         "name": "H\u00e1berg 6", 
         "url": "http://www.mbl.is/fasteignir/fasteign/836198/", 
         "price": 55900000, 
-        "flatid": "836198", 
-        "price_str": "55.900.000 kr.", 
-        "date": "2019-01-10", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
+        "flatid": "836198", 
+        "date": "2019-01-10", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 140.5, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "55.900.000 kr.", 
         "string": {
             "size": 1405
-        }, 
-        "size": 140.5
-    }, 
-    "754058": {
-        "name": "Su\u00f0urh\u00f3lar 35E", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/754058/", 
-        "price": 28900000, 
-        "flatid": "754058", 
-        "price_str": "28.900.000 kr.", 
-        "date": "2016-11-17", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "17. n\u00f3vember 2016"
-        }, 
-        "string": {
-            "size": 71
-        }, 
-        "size": 71.0
+        }
     }, 
     "838373": {
         "name": "M\u00e1sh\u00f3lar 17", 
         "url": "http://www.mbl.is/fasteignir/fasteign/838373/", 
         "price": 99000000, 
-        "flatid": "838373", 
-        "price_str": "99.000.000 kr.", 
-        "date": "2019-01-24", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "J\u00e1"
         }, 
+        "flatid": "838373", 
+        "date": "2019-01-24", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 354.6, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "99.000.000 kr.", 
         "string": {
             "size": 3546
-        }, 
-        "size": 354.6
+        }
     }, 
     "775433": {
         "name": "H\u00e1berg 7", 
         "url": "http://www.mbl.is/fasteignir/fasteign/775433/", 
         "price": 23500000, 
-        "flatid": "775433", 
-        "price_str": "23.500.000 kr.", 
-        "date": "2017-08-11", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "11. \u00e1g\u00fast 2017"
         }, 
+        "flatid": "775433", 
+        "date": "2017-08-11", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 43.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "23.500.000 kr.", 
         "string": {
             "size": 43
-        }, 
-        "size": 43.0
+        }
     }, 
     "747836": {
         "name": "Su\u00f0urh\u00f3lar 24", 
         "url": "http://www.mbl.is/fasteignir/fasteign/747836/", 
         "price": 26900000, 
-        "flatid": "747836", 
-        "price_str": "26.900.000 kr.", 
-        "date": "2016-09-08", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "8. september 2016"
         }, 
+        "flatid": "747836", 
+        "date": "2016-09-08", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 85.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "26.900.000 kr.", 
         "string": {
             "size": 85
-        }, 
-        "size": 85.0
+        }
     }, 
     "810845": {
         "name": "Keilufell 15", 
         "url": "http://www.mbl.is/fasteignir/fasteign/810845/", 
         "price": 59900000, 
+        "flatid": "810845", 
+        "price_str": "59.900.000 kr.", 
+        "date": "2018-07-06", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 175.6, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "810845", 
-        "date": "2018-07-06", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "59.900.000 kr.", 
         "string": {
             "size": 1756
-        }, 
-        "size": 175.6
+        }
     }, 
-    "834891": {
-        "name": "Su\u00f0urh\u00f3lar 20", 
-        "img": [
-            "https://cdn.mbl.is/fasteignir/img/pool/83/83111cc42ffe2a5d8e38c699e7b952dc9707fd79.jpg", 
-            "https://cdn.mbl.is/fasteignir/img/pool/f6/f623cd92aaf14831abb37fae5b7ae222ac905cc4.jpg", 
-            "https://cdn.mbl.is/fasteignir/img/pool/a9/a958d1e2943a1ca1320ac1893dc5e1625ef7d681.jpg", 
-            "https://cdn.mbl.is/fasteignir/img/pool/ef/eff04d72767ff67257de810d05f2c5cd926bc035.jpg", 
-            "https://cdn.mbl.is/fasteignir/img/pool/ac/ac5c6c83ebdb52193798edfc3d4086eee9c240e0.jpg", 
-            "https://cdn.mbl.is/fasteignir/img/pool/75/759728c6aecbf4e5ce954660a02af141bab5a207.jpg", 
-            "https://cdn.mbl.is/fasteignir/img/pool/35/356acc608162516471332da569ad7ebbeff44c0b.jpg", 
-            "https://cdn.mbl.is/fasteignir/img/pool/11/11e8c52870e356e8111f505e6b5ee88f9f5508a6.jpg", 
-            "https://cdn.mbl.is/fasteignir/img/pool/fa/fabdabe2aec7f55087d6c41e7e7feb3a106bc5d9.jpg", 
-            "https://cdn.mbl.is/fasteignir/img/pool/d4/d4c593a83f79e10444fa922e50a832cfa257af75.jpg", 
-            "https://cdn.mbl.is/fasteignir/img/pool/8c/8c1078d9b4ec06c54838f510990468937bea0337.jpg", 
-            "https://cdn.mbl.is/fasteignir/img/pool/cf/cf2185d436b5c4768f35e2edbd5485c336553a9a.jpg"
-        ], 
-        "url": "http://www.mbl.is/fasteignir/fasteign/834891/", 
-        "timestamp": "2019-04-12T02:35:30.250305", 
-        "price": 38500000, 
-        "flatid": "834891", 
-        "date": "2019-04-12", 
+    "828821": {
+        "name": "Su\u00f0urh\u00f3lar 24", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/828821/", 
+        "price": 34900000, 
+        "flatid": "828821", 
+        "price_str": "34.900.000 kr.", 
+        "date": "2018-11-07", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 85.3, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
-            "date": null, 
-            "price": "38.500.000 kr.", 
-            "size": "91.0 m"
+            "date": "Nei / Ekki vita\u00f0"
         }, 
-        "size": 91.0
+        "string": {
+            "size": 853
+        }
     }, 
     "837738": {
         "name": "H\u00e1berg 3", 
         "url": "http://www.mbl.is/fasteignir/fasteign/837738/", 
         "price": 32900000, 
-        "flatid": "837738", 
-        "price_str": "32.900.000 kr.", 
-        "date": "2019-01-19", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
+        "flatid": "837738", 
+        "date": "2019-01-19", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 74.6, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "32.900.000 kr.", 
         "string": {
             "size": 746
-        }, 
-        "size": 74.6
+        }
     }, 
     "837400": {
         "name": "M\u00e1sh\u00f3lar 17", 
         "url": "http://www.mbl.is/fasteignir/fasteign/837400/", 
         "price": 99000000, 
-        "flatid": "837400", 
-        "price_str": "99.000.000 kr.", 
-        "date": "2019-01-18", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "J\u00e1"
         }, 
+        "flatid": "837400", 
+        "date": "2019-01-18", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 354.6, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "99.000.000 kr.", 
         "string": {
             "size": 3546
-        }, 
-        "size": 354.6
+        }
     }, 
     "763656": {
         "name": "Su\u00f0urh\u00f3lar 35", 
         "url": "http://www.mbl.is/fasteignir/fasteign/763656/", 
         "price": 31900000, 
-        "flatid": "763656", 
-        "price_str": "31.900.000 kr.", 
-        "date": "2017-03-23", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "23. mars 2017"
         }, 
+        "flatid": "763656", 
+        "date": "2017-03-23", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 75.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "31.900.000 kr.", 
         "string": {
             "size": 75
-        }, 
-        "size": 75.0
+        }
     }, 
     "813132": {
         "name": "Austurberg 34", 
         "url": "http://www.mbl.is/fasteignir/fasteign/813132/", 
         "price": 36900000, 
+        "flatid": "813132", 
+        "price_str": "36.900.000 kr.", 
+        "date": "2018-08-02", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "813132", 
-        "date": "2018-08-02", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "36.900.000 kr.", 
         "string": {
             "size": 910
-        }, 
-        "size": 91.0
+        }
     }, 
     "799879": {
         "name": "H\u00e1berg 3", 
         "url": "http://www.mbl.is/fasteignir/fasteign/799879/", 
         "price": 30900000, 
+        "flatid": "799879", 
+        "price_str": "30.900.000 kr.", 
+        "date": "2018-04-09", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 75.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "799879", 
-        "date": "2018-04-09", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "30.900.000 kr.", 
         "string": {
             "size": 75
-        }, 
-        "size": 75.0
+        }
     }, 
     "841969": {
         "name": "M\u00e1sh\u00f3lar 17", 
         "url": "http://www.mbl.is/fasteignir/fasteign/841969/", 
         "price": 99000000, 
-        "flatid": "841969", 
-        "price_str": "99.000.000 kr.", 
-        "date": "2019-02-18", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "J\u00e1"
         }, 
+        "flatid": "841969", 
+        "date": "2019-02-18", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 354.6, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "99.000.000 kr.", 
         "string": {
             "size": 3546
-        }, 
-        "size": 354.6
+        }
     }, 
     "806666": {
         "name": "Su\u00f0urh\u00f3lar 16", 
         "url": "http://www.mbl.is/fasteignir/fasteign/806666/", 
         "price": 31900000, 
+        "flatid": "806666", 
+        "price_str": "31.900.000 kr.", 
+        "date": "2018-06-02", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "806666", 
-        "date": "2018-06-02", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "31.900.000 kr.", 
         "string": {
             "size": 910
-        }, 
-        "size": 91.0
+        }
     }, 
     "850542": {
         "name": "Su\u00f0urh\u00f3lar 20", 
@@ -552,103 +524,103 @@
         "name": "H\u00f3laberg 12", 
         "url": "http://www.mbl.is/fasteignir/fasteign/824867/", 
         "price": 52900000, 
+        "flatid": "824867", 
+        "price_str": "52.900.000 kr.", 
+        "date": "2018-10-12", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 128.2, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "824867", 
-        "date": "2018-10-12", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "52.900.000 kr.", 
         "string": {
             "size": 1282
-        }, 
-        "size": 128.2
+        }
     }, 
     "773088": {
         "name": "Austurberg 30", 
         "url": "http://www.mbl.is/fasteignir/fasteign/773088/", 
         "price": 38500000, 
-        "flatid": "773088", 
-        "price_str": "38.500.000 kr.", 
-        "date": "2017-07-10", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "10. j\u00fal\u00ed 2017"
         }, 
+        "flatid": "773088", 
+        "date": "2017-07-10", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "38.500.000 kr.", 
         "string": {
             "size": 91
-        }, 
-        "size": 91.0
+        }
     }, 
     "766088": {
         "name": "Fannarfell 4", 
         "url": "http://www.mbl.is/fasteignir/fasteign/766088/", 
         "price": 28200000, 
-        "flatid": "766088", 
-        "price_str": "28.200.000 kr.", 
-        "date": "2017-05-25", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "25. apr\u00edl 2017"
         }, 
+        "flatid": "766088", 
+        "date": "2017-05-25", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 68.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "28.200.000 kr.", 
         "string": {
             "size": 68
-        }, 
-        "size": 68.0
+        }
     }, 
     "775548": {
         "name": "Austurberg 30", 
         "url": "http://www.mbl.is/fasteignir/fasteign/775548/", 
         "price": 35900000, 
-        "flatid": "775548", 
-        "price_str": "35.900.000 kr.", 
-        "date": "2017-08-12", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "12. \u00e1g\u00fast 2017"
         }, 
+        "flatid": "775548", 
+        "date": "2017-08-12", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "35.900.000 kr.", 
         "string": {
             "size": 91
-        }, 
-        "size": 91.0
+        }
     }, 
     "811237": {
         "name": "Keilufell 15", 
         "url": "http://www.mbl.is/fasteignir/fasteign/811237/", 
         "price": 59900000, 
+        "flatid": "811237", 
+        "price_str": "59.900.000 kr.", 
+        "date": "2018-07-10", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 175.6, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "811237", 
-        "date": "2018-07-10", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "59.900.000 kr.", 
         "string": {
             "size": 1756
-        }, 
-        "size": 175.6
+        }
     }, 
     "820763": {
         "name": "M\u00e1sh\u00f3lar 1", 
         "url": "http://www.mbl.is/fasteignir/fasteign/820763/", 
         "price": 75900000, 
+        "flatid": "820763", 
+        "price_str": "75.900.000 kr.", 
+        "date": "2018-09-12", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 235.2, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "820763", 
-        "date": "2018-09-12", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "75.900.000 kr.", 
         "string": {
             "size": 2352
-        }, 
-        "size": 235.2
+        }
     }, 
     "853344": {
         "name": "H\u00f3laberg 12", 
@@ -685,137 +657,137 @@
         "name": "Asparfell 12", 
         "url": "http://www.mbl.is/fasteignir/fasteign/827651/", 
         "price": 32900000, 
+        "flatid": "827651", 
+        "price_str": "32.900.000 kr.", 
+        "date": "2018-10-30", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.1, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "J\u00e1"
         }, 
-        "flatid": "827651", 
-        "date": "2018-10-30", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "32.900.000 kr.", 
         "string": {
             "size": 911
-        }, 
-        "size": 91.1
+        }
     }, 
     "815916": {
         "name": "F\u00fdlsh\u00f3lar 1", 
         "url": "http://www.mbl.is/fasteignir/fasteign/815916/", 
         "price": 120000000, 
+        "flatid": "815916", 
+        "price_str": "120.000.000 kr.", 
+        "date": "2018-08-02", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 151.8, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "815916", 
-        "date": "2018-08-02", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "120.000.000 kr.", 
         "string": {
             "size": 1518
-        }, 
-        "size": 151.8
+        }
     }, 
     "764882": {
         "name": "Su\u00f0urh\u00f3lar 35B", 
         "url": "http://www.mbl.is/fasteignir/fasteign/764882/", 
         "price": 34900000, 
-        "flatid": "764882", 
-        "price_str": "34.900.000 kr.", 
-        "date": "2017-05-07", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "7. apr\u00edl 2017"
         }, 
+        "flatid": "764882", 
+        "date": "2017-05-07", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 72.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "34.900.000 kr.", 
         "string": {
             "size": 72
-        }, 
-        "size": 72.0
+        }
     }, 
     "812867": {
         "name": "H\u00e1berg 5", 
         "url": "http://www.mbl.is/fasteignir/fasteign/812867/", 
         "price": 34900000, 
+        "flatid": "812867", 
+        "price_str": "34.900.000 kr.", 
+        "date": "2018-07-30", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "812867", 
-        "date": "2018-07-30", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "34.900.000 kr.", 
         "string": {
             "size": 910
-        }, 
-        "size": 91.0
+        }
     }, 
     "765229": {
         "name": "Su\u00f0urh\u00f3lar 35B", 
         "url": "http://www.mbl.is/fasteignir/fasteign/765229/", 
         "price": 33000000, 
-        "flatid": "765229", 
-        "price_str": "33.000.000 kr.", 
-        "date": "2017-05-12", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "12. apr\u00edl 2017"
         }, 
+        "flatid": "765229", 
+        "date": "2017-05-12", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 72.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "33.000.000 kr.", 
         "string": {
             "size": 72
-        }, 
-        "size": 72.0
+        }
     }, 
     "838727": {
         "name": "Vesturberg 62", 
         "url": "http://www.mbl.is/fasteignir/fasteign/838727/", 
         "price": 49900000, 
-        "flatid": "838727", 
-        "price_str": "49.900.000 kr.", 
-        "date": "2019-01-25", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "J\u00e1"
         }, 
+        "flatid": "838727", 
+        "date": "2019-01-25", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 154.3, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "49.900.000 kr.", 
         "string": {
             "size": 1543
-        }, 
-        "size": 154.3
+        }
     }, 
     "839639": {
         "name": "Su\u00f0urh\u00f3lar 20", 
         "url": "http://www.mbl.is/fasteignir/fasteign/839639/", 
         "price": 27500000, 
-        "flatid": "839639", 
-        "price_str": "27.500.000 kr.", 
-        "date": "2019-02-02", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
+        "flatid": "839639", 
+        "date": "2019-02-02", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 43.2, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "27.500.000 kr.", 
         "string": {
             "size": 432
-        }, 
-        "size": 43.2
+        }
     }, 
     "824763": {
         "name": "Krummah\u00f3lar 6", 
         "url": "http://www.mbl.is/fasteignir/fasteign/824763/", 
         "price": 34800000, 
+        "flatid": "824763", 
+        "price_str": "34.800.000 kr.", 
+        "date": "2019-10-11", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 103.80000000000001, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "J\u00e1"
         }, 
-        "flatid": "824763", 
-        "date": "2019-10-11", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "34.800.000 kr.", 
         "string": {
             "size": 1038
-        }, 
-        "size": 103.80000000000001
+        }
     }, 
     "859919": {
         "name": "Su\u00f0urh\u00f3lar 35", 
@@ -852,52 +824,52 @@
         "name": "Austurberg 30", 
         "url": "http://www.mbl.is/fasteignir/fasteign/771418/", 
         "price": 38500000, 
-        "flatid": "771418", 
-        "price_str": "38.500.000 kr.", 
-        "date": "2017-06-21", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "21. j\u00fan\u00ed 2017"
         }, 
+        "flatid": "771418", 
+        "date": "2017-06-21", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "38.500.000 kr.", 
         "string": {
             "size": 91
-        }, 
-        "size": 91.0
+        }
     }, 
     "793785": {
         "name": "Su\u00f0urh\u00f3lar 35D", 
         "url": "http://www.mbl.is/fasteignir/fasteign/793785/", 
         "price": 42900000, 
+        "flatid": "793785", 
+        "price_str": "42.900.000 kr.", 
+        "date": "2018-02-11", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 86.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "793785", 
-        "date": "2018-02-11", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "42.900.000 kr.", 
         "string": {
             "size": 86
-        }, 
-        "size": 86.0
+        }
     }, 
     "769749": {
         "name": "Su\u00f0urh\u00f3lar OPI\u00d0 H\u00daS 35E", 
         "url": "http://www.mbl.is/fasteignir/fasteign/769749/", 
         "price": 34900000, 
-        "flatid": "769749", 
-        "price_str": "34.900.000 kr.", 
-        "date": "2017-06-02", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "2. j\u00fan\u00ed 2017"
         }, 
+        "flatid": "769749", 
+        "date": "2017-06-02", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 70.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "34.900.000 kr.", 
         "string": {
             "size": 70
-        }, 
-        "size": 70.0
+        }
     }, 
     "851845": {
         "name": "Krummah\u00f3lar 10", 
@@ -941,39 +913,50 @@
         }, 
         "size": 79.1
     }, 
-    "828821": {
-        "name": "Su\u00f0urh\u00f3lar 24", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/828821/", 
-        "price": 34900000, 
+    "834891": {
+        "name": "Su\u00f0urh\u00f3lar 20", 
+        "img": [
+            "https://cdn.mbl.is/fasteignir/img/pool/83/83111cc42ffe2a5d8e38c699e7b952dc9707fd79.jpg", 
+            "https://cdn.mbl.is/fasteignir/img/pool/f6/f623cd92aaf14831abb37fae5b7ae222ac905cc4.jpg", 
+            "https://cdn.mbl.is/fasteignir/img/pool/a9/a958d1e2943a1ca1320ac1893dc5e1625ef7d681.jpg", 
+            "https://cdn.mbl.is/fasteignir/img/pool/ef/eff04d72767ff67257de810d05f2c5cd926bc035.jpg", 
+            "https://cdn.mbl.is/fasteignir/img/pool/ac/ac5c6c83ebdb52193798edfc3d4086eee9c240e0.jpg", 
+            "https://cdn.mbl.is/fasteignir/img/pool/75/759728c6aecbf4e5ce954660a02af141bab5a207.jpg", 
+            "https://cdn.mbl.is/fasteignir/img/pool/35/356acc608162516471332da569ad7ebbeff44c0b.jpg", 
+            "https://cdn.mbl.is/fasteignir/img/pool/11/11e8c52870e356e8111f505e6b5ee88f9f5508a6.jpg", 
+            "https://cdn.mbl.is/fasteignir/img/pool/fa/fabdabe2aec7f55087d6c41e7e7feb3a106bc5d9.jpg", 
+            "https://cdn.mbl.is/fasteignir/img/pool/d4/d4c593a83f79e10444fa922e50a832cfa257af75.jpg", 
+            "https://cdn.mbl.is/fasteignir/img/pool/8c/8c1078d9b4ec06c54838f510990468937bea0337.jpg", 
+            "https://cdn.mbl.is/fasteignir/img/pool/cf/cf2185d436b5c4768f35e2edbd5485c336553a9a.jpg"
+        ], 
+        "url": "http://www.mbl.is/fasteignir/fasteign/834891/", 
+        "timestamp": "2019-04-12T02:35:30.250305", 
+        "price": 38500000, 
+        "flatid": "834891", 
+        "date": "2019-04-12", 
         "strings": {
-            "date": "Nei / Ekki vita\u00f0"
+            "date": null, 
+            "price": "38.500.000 kr.", 
+            "size": "91.0 m"
         }, 
-        "flatid": "828821", 
-        "date": "2018-11-07", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "34.900.000 kr.", 
-        "string": {
-            "size": 853
-        }, 
-        "size": 85.3
+        "size": 91.0
     }, 
     "832566": {
         "name": "Krummah\u00f3lar 8", 
         "url": "http://www.mbl.is/fasteignir/fasteign/832566/", 
         "price": 39900000, 
+        "flatid": "832566", 
+        "price_str": "39.900.000 kr.", 
+        "date": "2018-12-04", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 119.7, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "J\u00e1"
         }, 
-        "flatid": "832566", 
-        "date": "2018-12-04", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "39.900.000 kr.", 
         "string": {
             "size": 1197
-        }, 
-        "size": 119.7
+        }
     }, 
     "858196": {
         "name": "Su\u00f0urh\u00f3lar 35", 
@@ -1010,307 +993,69 @@
         "name": "Su\u00f0urh\u00f3lar 18", 
         "url": "http://www.mbl.is/fasteignir/fasteign/763677/", 
         "price": 31500000, 
-        "flatid": "763677", 
-        "price_str": "31.500.000 kr.", 
-        "date": "2017-03-24", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "24. mars 2017"
         }, 
+        "flatid": "763677", 
+        "date": "2017-03-24", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 75.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "31.500.000 kr.", 
         "string": {
             "size": 75
-        }, 
-        "size": 75.0
+        }
     }, 
     "781102": {
         "name": "Austurberg 32", 
         "url": "http://www.mbl.is/fasteignir/fasteign/781102/", 
         "price": 29900000, 
-        "flatid": "781102", 
-        "price_str": "29.900.000 kr.", 
-        "date": "2017-10-03", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "3. okt\u00f3ber 2017"
         }, 
+        "flatid": "781102", 
+        "date": "2017-10-03", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 75.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "29.900.000 kr.", 
         "string": {
             "size": 75
-        }, 
-        "size": 75.0
+        }
     }, 
     "770917": {
         "name": "Austurberg 30", 
         "url": "http://www.mbl.is/fasteignir/fasteign/770917/", 
         "price": 38500000, 
-        "flatid": "770917", 
-        "price_str": "38.500.000 kr.", 
-        "date": "2017-06-15", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "15. j\u00fan\u00ed 2017"
         }, 
+        "flatid": "770917", 
+        "date": "2017-06-15", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "38.500.000 kr.", 
         "string": {
             "size": 91
-        }, 
-        "size": 91.0
+        }
     }, 
     "781224": {
         "name": "Su\u00f0urh\u00f3lar 35A", 
         "url": "http://www.mbl.is/fasteignir/fasteign/781224/", 
         "price": 35900000, 
-        "flatid": "781224", 
-        "price_str": "35.900.000 kr.", 
-        "date": "2017-10-04", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "4. okt\u00f3ber 2017"
         }, 
-        "string": {
-            "size": 72
-        }, 
-        "size": 72.0
-    }, 
-    "780224": {
-        "name": "Su\u00f0urh\u00f3lar 22", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/780224/", 
-        "price": 34200000, 
-        "flatid": "780224", 
-        "price_str": "34.200.000 kr.", 
-        "date": "2017-09-25", 
+        "flatid": "781224", 
+        "date": "2017-10-04", 
         "entry": "S\u00e9rinngangur", 
+        "size": 72.0, 
         "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "25. september 2017"
-        }, 
-        "string": {
-            "size": 75
-        }, 
-        "size": 75.0
-    }, 
-    "798253": {
-        "name": "Austurberg 34", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/798253/", 
-        "price": 26900000, 
-        "strings": {
-            "date": "Nei / Ekki vita\u00f0"
-        }, 
-        "flatid": "798253", 
-        "date": "2018-03-23", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "26.900.000 kr.", 
-        "string": {
-            "size": 54
-        }, 
-        "size": 54.0
-    }, 
-    "782891": {
-        "name": "Su\u00f0urh\u00f3lar 20", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/782891/", 
-        "price": 24500000, 
-        "flatid": "782891", 
-        "price_str": "24.500.000 kr.", 
-        "date": "2017-10-18", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "18. okt\u00f3ber 2017"
-        }, 
-        "string": {
-            "size": 43
-        }, 
-        "size": 43.0
-    }, 
-    "778257": {
-        "name": "Austurberg ( OPI\u00d0 H\u00daS )  38", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/778257/", 
-        "price": 36900000, 
-        "flatid": "778257", 
-        "price_str": "36.900.000 kr.", 
-        "date": "2017-09-07", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "7. september 2017"
-        }, 
-        "string": {
-            "size": 91
-        }, 
-        "size": 91.0
-    }, 
-    "840237": {
-        "name": "Su\u00f0urh\u00f3lar 24", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/840237/", 
-        "price": 37900000, 
-        "flatid": "840237", 
-        "price_str": "37.900.000 kr.", 
-        "date": "2019-02-06", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "Nei / Ekki vita\u00f0"
-        }, 
-        "string": {
-            "size": 1033
-        }, 
-        "size": 103.3
-    }, 
-    "792705": {
-        "name": "Su\u00f0urh\u00f3lar 35D", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/792705/", 
-        "price": 42900000, 
-        "strings": {
-            "date": "Nei / Ekki vita\u00f0"
-        }, 
-        "flatid": "792705", 
-        "date": "2018-02-02", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "42.900.000 kr.", 
-        "string": {
-            "size": 86
-        }, 
-        "size": 86.0
-    }, 
-    "834582": {
-        "name": "M\u00e1sh\u00f3lar 17", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/834582/", 
-        "price": 99000000, 
-        "flatid": "834582", 
-        "price_str": "99.000.000 kr.", 
-        "date": "2019-01-13", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "J\u00e1"
-        }, 
-        "string": {
-            "size": 3546
-        }, 
-        "size": 354.6
-    }, 
-    "782081": {
-        "name": "Su\u00f0urh\u00f3lar 20", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/782081/", 
-        "price": 25500000, 
-        "flatid": "782081", 
-        "price_str": "25.500.000 kr.", 
-        "date": "2017-10-11", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "11. okt\u00f3ber 2017"
-        }, 
-        "string": {
-            "size": 43
-        }, 
-        "size": 43.0
-    }, 
-    "782710": {
-        "name": "Su\u00f0urh\u00f3lar 35A", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/782710/", 
-        "price": 35900000, 
-        "flatid": "782710", 
         "price_str": "35.900.000 kr.", 
-        "date": "2017-10-17", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "17. okt\u00f3ber 2017"
-        }, 
         "string": {
             "size": 72
-        }, 
-        "size": 72.0
-    }, 
-    "761144": {
-        "name": "Su\u00f0urh\u00f3lar 18", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/761144/", 
-        "price": 34700000, 
-        "flatid": "761144", 
-        "price_str": "34.700.000 kr.", 
-        "date": "2017-02-23", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "23. febr\u00faar 2017"
-        }, 
-        "string": {
-            "size": 91
-        }, 
-        "size": 91.0
-    }, 
-    "793559": {
-        "name": "Su\u00f0urh\u00f3lar 35A", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/793559/", 
-        "price": 34900000, 
-        "strings": {
-            "date": "Nei / Ekki vita\u00f0"
-        }, 
-        "flatid": "793559", 
-        "date": "2018-03-01", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "34.900.000 kr.", 
-        "string": {
-            "size": 71
-        }, 
-        "size": 71.0
-    }, 
-    "793804": {
-        "name": "Su\u00f0urh\u00f3lar 35D", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/793804/", 
-        "price": 42900000, 
-        "strings": {
-            "date": "Nei / Ekki vita\u00f0"
-        }, 
-        "flatid": "793804", 
-        "date": "2018-02-12", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "42.900.000 kr.", 
-        "string": {
-            "size": 86
-        }, 
-        "size": 86.0
-    }, 
-    "755726": {
-        "name": "Hrafnh\u00f3lar 6-8 6R", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/755726/", 
-        "price": 27900000, 
-        "flatid": "755726", 
-        "price_str": "27.900.000 kr.", 
-        "date": "2016-12-13", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "13. desember 2016"
-        }, 
-        "string": {
-            "size": 82
-        }, 
-        "size": 82.0
-    }, 
-    "826966": {
-        "name": "Austurberg 34", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/826966/", 
-        "price": 34700000, 
-        "strings": {
-            "date": "Nei / Ekki vita\u00f0"
-        }, 
-        "flatid": "826966", 
-        "date": "2018-10-26", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "34.700.000 kr.", 
-        "string": {
-            "size": 910
-        }, 
-        "size": 91.0
+        }
     }, 
     "863598": {
         "name": "Vesturberg 34", 
@@ -1344,243 +1089,498 @@
         }, 
         "size": 138.6
     }, 
-    "762965": {
-        "name": "Su\u00f0urh\u00f3lar 18", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/762965/", 
-        "price": 33000000, 
-        "flatid": "762965", 
-        "price_str": "33.000.000 kr.", 
-        "date": "2017-03-16", 
+    "798253": {
+        "name": "Austurberg 34", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/798253/", 
+        "price": 26900000, 
+        "flatid": "798253", 
+        "price_str": "26.900.000 kr.", 
+        "date": "2018-03-23", 
         "entry": "S\u00e9rinngangur", 
+        "size": 54.0, 
         "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "16. mars 2017"
-        }, 
-        "string": {
-            "size": 75
-        }, 
-        "size": 75.0
-    }, 
-    "759569": {
-        "name": "Su\u00f0urh\u00f3lar 35D", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/759569/", 
-        "price": 32900000, 
-        "flatid": "759569", 
-        "price_str": "32.900.000 kr.", 
-        "date": "2017-02-03", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "3. febr\u00faar 2017"
-        }, 
-        "string": {
-            "size": 70
-        }, 
-        "size": 70.0
-    }, 
-    "770687": {
-        "name": "V\u00f6lvufell 15", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/770687/", 
-        "price": 18900000, 
-        "flatid": "770687", 
-        "price_str": "18.900.000 kr.", 
-        "date": "2017-06-13", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "13. j\u00fan\u00ed 2017"
-        }, 
-        "string": {
-            "size": 45
-        }, 
-        "size": 45.0
-    }, 
-    "816595": {
-        "name": "H\u00e1berg 5", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/816595/", 
-        "price": 34900000, 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "816595", 
-        "date": "2018-08-22", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "34.900.000 kr.", 
         "string": {
-            "size": 910
-        }, 
-        "size": 91.0
+            "size": 54
+        }
     }, 
-    "765298": {
-        "name": "Krummah\u00f3lar 10", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/765298/", 
-        "price": 32000000, 
-        "flatid": "765298", 
-        "price_str": "32.000.000 kr.", 
-        "date": "2017-05-12", 
+    "782891": {
+        "name": "Su\u00f0urh\u00f3lar 20", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/782891/", 
+        "price": 24500000, 
+        "strings": {
+            "date": "18. okt\u00f3ber 2017"
+        }, 
+        "flatid": "782891", 
+        "date": "2017-10-18", 
         "entry": "S\u00e9rinngangur", 
+        "size": 43.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "24.500.000 kr.", 
+        "string": {
+            "size": 43
+        }
+    }, 
+    "778257": {
+        "name": "Austurberg ( OPI\u00d0 H\u00daS )  38", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/778257/", 
+        "price": 36900000, 
+        "strings": {
+            "date": "7. september 2017"
+        }, 
+        "flatid": "778257", 
+        "date": "2017-09-07", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "36.900.000 kr.", 
+        "string": {
+            "size": 91
+        }
+    }, 
+    "840237": {
+        "name": "Su\u00f0urh\u00f3lar 24", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/840237/", 
+        "price": 37900000, 
+        "strings": {
+            "date": "Nei / Ekki vita\u00f0"
+        }, 
+        "flatid": "840237", 
+        "date": "2019-02-06", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 103.3, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "37.900.000 kr.", 
+        "string": {
+            "size": 1033
+        }
+    }, 
+    "792705": {
+        "name": "Su\u00f0urh\u00f3lar 35D", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/792705/", 
+        "price": 42900000, 
+        "flatid": "792705", 
+        "price_str": "42.900.000 kr.", 
+        "date": "2018-02-02", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 86.0, 
         "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
-            "date": "12. apr\u00edl 2017"
+            "date": "Nei / Ekki vita\u00f0"
+        }, 
+        "string": {
+            "size": 86
+        }
+    }, 
+    "834582": {
+        "name": "M\u00e1sh\u00f3lar 17", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/834582/", 
+        "price": 99000000, 
+        "strings": {
+            "date": "J\u00e1"
+        }, 
+        "flatid": "834582", 
+        "date": "2019-01-13", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 354.6, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "99.000.000 kr.", 
+        "string": {
+            "size": 3546
+        }
+    }, 
+    "782081": {
+        "name": "Su\u00f0urh\u00f3lar 20", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/782081/", 
+        "price": 25500000, 
+        "strings": {
+            "date": "11. okt\u00f3ber 2017"
+        }, 
+        "flatid": "782081", 
+        "date": "2017-10-11", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 43.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "25.500.000 kr.", 
+        "string": {
+            "size": 43
+        }
+    }, 
+    "782710": {
+        "name": "Su\u00f0urh\u00f3lar 35A", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/782710/", 
+        "price": 35900000, 
+        "strings": {
+            "date": "17. okt\u00f3ber 2017"
+        }, 
+        "flatid": "782710", 
+        "date": "2017-10-17", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 72.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "35.900.000 kr.", 
+        "string": {
+            "size": 72
+        }
+    }, 
+    "761144": {
+        "name": "Su\u00f0urh\u00f3lar 18", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/761144/", 
+        "price": 34700000, 
+        "strings": {
+            "date": "23. febr\u00faar 2017"
+        }, 
+        "flatid": "761144", 
+        "date": "2017-02-23", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "34.700.000 kr.", 
+        "string": {
+            "size": 91
+        }
+    }, 
+    "793559": {
+        "name": "Su\u00f0urh\u00f3lar 35A", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/793559/", 
+        "price": 34900000, 
+        "flatid": "793559", 
+        "price_str": "34.900.000 kr.", 
+        "date": "2018-03-01", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 71.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "strings": {
+            "date": "Nei / Ekki vita\u00f0"
         }, 
         "string": {
             "size": 71
-        }, 
-        "size": 71.0
+        }
     }, 
-    "801842": {
-        "name": "Su\u00f0urh\u00f3lar 16", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/801842/", 
-        "price": 31900000, 
+    "793804": {
+        "name": "Su\u00f0urh\u00f3lar 35D", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/793804/", 
+        "price": 42900000, 
+        "flatid": "793804", 
+        "price_str": "42.900.000 kr.", 
+        "date": "2018-02-12", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 86.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "801842", 
-        "date": "2018-04-24", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "31.900.000 kr.", 
         "string": {
-            "size": 91
-        }, 
-        "size": 91.0
+            "size": 86
+        }
     }, 
-    "836373": {
-        "name": "Austurberg 34", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/836373/", 
-        "price": 34700000, 
-        "flatid": "836373", 
-        "price_str": "34.700.000 kr.", 
-        "date": "2019-01-11", 
+    "755726": {
+        "name": "Hrafnh\u00f3lar 6-8 6R", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/755726/", 
+        "price": 27900000, 
+        "strings": {
+            "date": "13. desember 2016"
+        }, 
+        "flatid": "755726", 
+        "date": "2016-12-13", 
         "entry": "S\u00e9rinngangur", 
+        "size": 82.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "27.900.000 kr.", 
+        "string": {
+            "size": 82
+        }
+    }, 
+    "826966": {
+        "name": "Austurberg 34", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/826966/", 
+        "price": 34700000, 
+        "flatid": "826966", 
+        "price_str": "34.700.000 kr.", 
+        "date": "2018-10-26", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
         "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
         "string": {
             "size": 910
-        }, 
-        "size": 91.0
-    }, 
-    "847794": {
-        "name": "Su\u00f0urh\u00f3lar 18", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/847794/", 
-        "price": 34900000, 
-        "flatid": "847794", 
-        "price_str": "34.900.000 kr.", 
-        "date": "2019-03-27", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "Nei / Ekki vita\u00f0"
-        }, 
-        "string": {
-            "size": 746
-        }, 
-        "size": 74.6
-    }, 
-    "769972": {
-        "name": "Su\u00f0urh\u00f3lar 18", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/769972/", 
-        "price": 22900000, 
-        "flatid": "769972", 
-        "price_str": "22.900.000 kr.", 
-        "date": "2017-06-07", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "7. j\u00fan\u00ed 2017"
-        }, 
-        "string": {
-            "size": 43
-        }, 
-        "size": 43.0
-    }, 
-    "818456": {
-        "name": "Vesturberg 13", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/818456/", 
-        "price": 63900000, 
-        "strings": {
-            "date": "J\u00e1"
-        }, 
-        "flatid": "818456", 
-        "date": "2018-08-24", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "63.900.000 kr.", 
-        "string": {
-            "size": 2084
-        }, 
-        "size": 208.4
-    }, 
-    "833167": {
-        "name": "Vesturberg 71", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/833167/", 
-        "price": 72900000, 
-        "strings": {
-            "date": "J\u00e1"
-        }, 
-        "flatid": "833167", 
-        "date": "2018-12-10", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "72.900.000 kr.", 
-        "string": {
-            "size": 2271
-        }, 
-        "size": 227.10000000000002
-    }, 
-    "774992": {
-        "name": "Austurberg 30", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/774992/", 
-        "price": 36900000, 
-        "flatid": "774992", 
-        "price_str": "36.900.000 kr.", 
-        "date": "2017-08-04", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "4. \u00e1g\u00fast 2017"
-        }, 
-        "string": {
-            "size": 91
-        }, 
-        "size": 91.0
-    }, 
-    "839741": {
-        "name": "M\u00e1sh\u00f3lar 17", 
-        "url": "http://www.mbl.is/fasteignir/fasteign/839741/", 
-        "price": 99000000, 
-        "flatid": "839741", 
-        "price_str": "99.000.000 kr.", 
-        "date": "2019-02-04", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "strings": {
-            "date": "J\u00e1"
-        }, 
-        "string": {
-            "size": 3546
-        }, 
-        "size": 354.6
+        }
     }, 
     "799519": {
         "name": "Su\u00f0urh\u00f3lar 35D", 
         "url": "http://www.mbl.is/fasteignir/fasteign/799519/", 
         "price": 42900000, 
+        "flatid": "799519", 
+        "price_str": "42.900.000 kr.", 
+        "date": "2018-04-06", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 86.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "799519", 
-        "date": "2018-04-06", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "42.900.000 kr.", 
         "string": {
             "size": 86
+        }
+    }, 
+    "780224": {
+        "name": "Su\u00f0urh\u00f3lar 22", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/780224/", 
+        "price": 34200000, 
+        "strings": {
+            "date": "25. september 2017"
         }, 
-        "size": 86.0
+        "flatid": "780224", 
+        "date": "2017-09-25", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 75.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "34.200.000 kr.", 
+        "string": {
+            "size": 75
+        }
+    }, 
+    "762965": {
+        "name": "Su\u00f0urh\u00f3lar 18", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/762965/", 
+        "price": 33000000, 
+        "strings": {
+            "date": "16. mars 2017"
+        }, 
+        "flatid": "762965", 
+        "date": "2017-03-16", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 75.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "33.000.000 kr.", 
+        "string": {
+            "size": 75
+        }
+    }, 
+    "759569": {
+        "name": "Su\u00f0urh\u00f3lar 35D", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/759569/", 
+        "price": 32900000, 
+        "strings": {
+            "date": "3. febr\u00faar 2017"
+        }, 
+        "flatid": "759569", 
+        "date": "2017-02-03", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 70.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "32.900.000 kr.", 
+        "string": {
+            "size": 70
+        }
+    }, 
+    "770687": {
+        "name": "V\u00f6lvufell 15", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/770687/", 
+        "price": 18900000, 
+        "strings": {
+            "date": "13. j\u00fan\u00ed 2017"
+        }, 
+        "flatid": "770687", 
+        "date": "2017-06-13", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 45.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "18.900.000 kr.", 
+        "string": {
+            "size": 45
+        }
+    }, 
+    "816595": {
+        "name": "H\u00e1berg 5", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/816595/", 
+        "price": 34900000, 
+        "flatid": "816595", 
+        "price_str": "34.900.000 kr.", 
+        "date": "2018-08-22", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "strings": {
+            "date": "Nei / Ekki vita\u00f0"
+        }, 
+        "string": {
+            "size": 910
+        }
+    }, 
+    "765298": {
+        "name": "Krummah\u00f3lar 10", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/765298/", 
+        "price": 32000000, 
+        "strings": {
+            "date": "12. apr\u00edl 2017"
+        }, 
+        "flatid": "765298", 
+        "date": "2017-05-12", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 71.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "32.000.000 kr.", 
+        "string": {
+            "size": 71
+        }
+    }, 
+    "801842": {
+        "name": "Su\u00f0urh\u00f3lar 16", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/801842/", 
+        "price": 31900000, 
+        "flatid": "801842", 
+        "price_str": "31.900.000 kr.", 
+        "date": "2018-04-24", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "strings": {
+            "date": "Nei / Ekki vita\u00f0"
+        }, 
+        "string": {
+            "size": 91
+        }
+    }, 
+    "836373": {
+        "name": "Austurberg 34", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/836373/", 
+        "price": 34700000, 
+        "strings": {
+            "date": "Nei / Ekki vita\u00f0"
+        }, 
+        "flatid": "836373", 
+        "date": "2019-01-11", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "34.700.000 kr.", 
+        "string": {
+            "size": 910
+        }
+    }, 
+    "847794": {
+        "name": "Su\u00f0urh\u00f3lar 18", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/847794/", 
+        "price": 34900000, 
+        "strings": {
+            "date": "Nei / Ekki vita\u00f0"
+        }, 
+        "flatid": "847794", 
+        "date": "2019-03-27", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 74.6, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "34.900.000 kr.", 
+        "string": {
+            "size": 746
+        }
+    }, 
+    "769972": {
+        "name": "Su\u00f0urh\u00f3lar 18", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/769972/", 
+        "price": 22900000, 
+        "strings": {
+            "date": "7. j\u00fan\u00ed 2017"
+        }, 
+        "flatid": "769972", 
+        "date": "2017-06-07", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 43.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "22.900.000 kr.", 
+        "string": {
+            "size": 43
+        }
+    }, 
+    "818456": {
+        "name": "Vesturberg 13", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/818456/", 
+        "price": 63900000, 
+        "flatid": "818456", 
+        "price_str": "63.900.000 kr.", 
+        "date": "2018-08-24", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 208.4, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "strings": {
+            "date": "J\u00e1"
+        }, 
+        "string": {
+            "size": 2084
+        }
+    }, 
+    "833167": {
+        "name": "Vesturberg 71", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/833167/", 
+        "price": 72900000, 
+        "flatid": "833167", 
+        "price_str": "72.900.000 kr.", 
+        "date": "2018-12-10", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 227.10000000000002, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "strings": {
+            "date": "J\u00e1"
+        }, 
+        "string": {
+            "size": 2271
+        }
+    }, 
+    "774992": {
+        "name": "Austurberg 30", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/774992/", 
+        "price": 36900000, 
+        "strings": {
+            "date": "4. \u00e1g\u00fast 2017"
+        }, 
+        "flatid": "774992", 
+        "date": "2017-08-04", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "36.900.000 kr.", 
+        "string": {
+            "size": 91
+        }
+    }, 
+    "839741": {
+        "name": "M\u00e1sh\u00f3lar 17", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/839741/", 
+        "price": 99000000, 
+        "strings": {
+            "date": "J\u00e1"
+        }, 
+        "flatid": "839741", 
+        "date": "2019-02-04", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 354.6, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "99.000.000 kr.", 
+        "string": {
+            "size": 3546
+        }
+    }, 
+    "754058": {
+        "name": "Su\u00f0urh\u00f3lar 35E", 
+        "url": "http://www.mbl.is/fasteignir/fasteign/754058/", 
+        "price": 28900000, 
+        "strings": {
+            "date": "17. n\u00f3vember 2016"
+        }, 
+        "flatid": "754058", 
+        "date": "2016-11-17", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 71.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "28.900.000 kr.", 
+        "string": {
+            "size": 71
+        }
     }, 
     "853959": {
         "name": "Su\u00f0urh\u00f3lar 18", 
@@ -1648,120 +1648,120 @@
         "name": "Austurberg  38", 
         "url": "http://www.mbl.is/fasteignir/fasteign/780255/", 
         "price": 34900000, 
-        "flatid": "780255", 
-        "price_str": "34.900.000 kr.", 
-        "date": "2017-09-25", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "25. september 2017"
         }, 
+        "flatid": "780255", 
+        "date": "2017-09-25", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "34.900.000 kr.", 
         "string": {
             "size": 91
-        }, 
-        "size": 91.0
+        }
     }, 
     "779250": {
         "name": "Su\u00f0urh\u00f3lar 35E", 
         "url": "http://www.mbl.is/fasteignir/fasteign/779250/", 
         "price": 34900000, 
-        "flatid": "779250", 
-        "price_str": "34.900.000 kr.", 
-        "date": "2017-09-17", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "17. september 2017"
         }, 
+        "flatid": "779250", 
+        "date": "2017-09-17", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 70.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "34.900.000 kr.", 
         "string": {
             "size": 70
-        }, 
-        "size": 70.0
+        }
     }, 
     "778882": {
         "name": "Su\u00f0urh\u00f3lar 35E", 
         "url": "http://www.mbl.is/fasteignir/fasteign/778882/", 
         "price": 34900000, 
-        "flatid": "778882", 
-        "price_str": "34.900.000 kr.", 
-        "date": "2017-09-13", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "13. september 2017"
         }, 
+        "flatid": "778882", 
+        "date": "2017-09-13", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 70.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "34.900.000 kr.", 
         "string": {
             "size": 70
-        }, 
-        "size": 70.0
+        }
     }, 
     "810109": {
         "name": "Gy\u00f0ufell 16", 
         "url": "http://www.mbl.is/fasteignir/fasteign/810109/", 
         "price": 26900000, 
+        "flatid": "810109", 
+        "price_str": "26.900.000 kr.", 
+        "date": "2018-06-29", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 68.9, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "810109", 
-        "date": "2018-06-29", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "26.900.000 kr.", 
         "string": {
             "size": 689
-        }, 
-        "size": 68.9
+        }
     }, 
     "799983": {
         "name": "Su\u00f0urh\u00f3lar 35D", 
         "url": "http://www.mbl.is/fasteignir/fasteign/799983/", 
         "price": "Tilbod", 
+        "flatid": "799983", 
+        "price_str": "Tilbo\u00f0", 
+        "date": "2018-04-12", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 86.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "799983", 
-        "date": "2018-04-12", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "Tilbo\u00f0", 
         "string": {
             "size": 86
-        }, 
-        "size": 86.0
+        }
     }, 
     "833706": {
         "name": "H\u00e1berg 6", 
         "url": "http://www.mbl.is/fasteignir/fasteign/833706/", 
         "price": 55900000, 
-        "flatid": "833706", 
-        "price_str": "55.900.000 kr.", 
-        "date": "2019-01-03", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
+        "flatid": "833706", 
+        "date": "2019-01-03", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 140.5, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "55.900.000 kr.", 
         "string": {
             "size": 1405
-        }, 
-        "size": 140.5
+        }
     }, 
     "798282": {
         "name": "Su\u00f0urh\u00f3lar 16", 
         "url": "http://www.mbl.is/fasteignir/fasteign/798282/", 
         "price": 31900000, 
+        "flatid": "798282", 
+        "price_str": "31.900.000 kr.", 
+        "date": "2018-03-23", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 91.0, 
+        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
-        "flatid": "798282", 
-        "date": "2018-03-23", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
-        "price_str": "31.900.000 kr.", 
         "string": {
             "size": 91
-        }, 
-        "size": 91.0
+        }
     }, 
     "857389": {
         "name": "Austurberg 34", 
@@ -1799,17 +1799,17 @@
         "name": "Su\u00f0urh\u00f3lar 18", 
         "url": "http://www.mbl.is/fasteignir/fasteign/848940/", 
         "price": 33900000, 
-        "flatid": "848940", 
-        "price_str": "33.900.000 kr.", 
-        "date": "2019-04-03", 
-        "entry": "S\u00e9rinngangur", 
-        "type": "Fj\u00f6lb\u00fdli", 
         "strings": {
             "date": "Nei / Ekki vita\u00f0"
         }, 
+        "flatid": "848940", 
+        "date": "2019-04-03", 
+        "entry": "S\u00e9rinngangur", 
+        "size": 74.6, 
+        "type": "Fj\u00f6lb\u00fdli", 
+        "price_str": "33.900.000 kr.", 
         "string": {
             "size": 746
-        }, 
-        "size": 74.6
+        }
     }
 }
