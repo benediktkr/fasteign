@@ -134,7 +134,7 @@ def parse_flat(flatid):
         'strings': {'price': price, 'size': xsize.text},
         'type': xtype.text.strip(),
         'img': img,
-        'timestamp': datetime.datetime.now().isoformat()
+        'timestamp': datetime.now().isoformat()
     }
 
     return Flat(**d)
